@@ -1,25 +1,24 @@
 {
-  "name": "hubot-tomato-timer",
-  "version": "1.1.1",
-  "description": "The last Hubot tomato timer you'll ever need.",
+  "name": "hubot-tea-timer",
+  "version": "1.0.0",
+  "description": "The last Hubot tea timer you'll ever need.",
   "main": "index.coffee",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryoe/hubot-tomato-timer.git"
+    "url": "git+https://github.com/fundor333/hubot-tea-timer.git"
   },
   "keywords": [
     "Hubot",
-    "tomato",
-    "timer",
-    "Pomodoro"
+    "tea",
+    "timer"
   ],
-  "author": "ryoe",
+  "author": "fundor333",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ryoe/hubot-tomato-timer/issues"
+    "url": "https://github.com/fundor333/hubot-tea-timer/issues"
   },
-  "homepage": "https://github.com/ryoe/hubot-tomato-timer#readme"
+  "homepage": "https://github.com/fundor333/hubot-tea-timer#readme"
 }
