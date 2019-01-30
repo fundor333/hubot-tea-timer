@@ -33,7 +33,6 @@ help = [
   'tea help - return the allowed commands'
 ]
 
-
 stringCompare = (a, b) ->
   return a.toLowerCase() is b
 
@@ -154,7 +153,6 @@ startTimer = (msg, others) ->
     timers[userInfo.key].intervalId = intervalId
     timers[userInfo.key].startTime = Date.now()
     timers[userInfo.key].expectedStop = timers[userInfo.key].startTime + time
-
 
 module.exports = (robot) ->
   botName = robot.name
