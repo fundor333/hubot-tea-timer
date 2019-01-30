@@ -1,8 +1,11 @@
 [hubot]: https://github.com/github/hubot
 [coffeestyle]: https://github.com/polarmobile/coffeescript-style-guide
-[teatimer]: http://tea-timer.com/
 
 # hubot-tea-timer
+[![Build Status](https://travis-ci.org/fundor333/hubot-tea-timer.svg?branch=master)](https://travis-ci.org/fundor333/hubot-tea-timer)
+![](https://img.shields.io/npm/v/hubot-tea-timer.svg?style=flat)
+![](https://img.shields.io/github/last-commit/fundor333/hubot-tea-timer.svg?style=flat)
+![](https://img.shields.io/github/issues-raw/fundor333/hubot-tea-timer.svg?style=flat)
 
 A [Hubot][hubot] script for all your tea timer needs. Simply start a timer and Hubot will notify you when the tea is ready.
 
