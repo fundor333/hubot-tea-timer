@@ -1,19 +1,21 @@
 language: node_js
 node_js:
-  - "7"
-  - "6"
-  - "5"
-  - "4"
-
+- '7'
+- '6'
+- '5'
+- '4'
 script: echo "Running tests against $(node -v) ..."
-
 jobs:
   include:
-    - stage: npm release
-      node_js: "7"
-      script: echo "Deploying to npm ..."
-      deploy:
-        provider: npm
-        email: "fundor333@fundor333.com"
-        api_key: $YOUR_AUTH_TOKEN
-        on: master
+  - stage: npm release
+    node_js: '7'
+    script: echo "Deploying to npm ..."
+    deploy:
+      provider: npm
+      email: fundor333@fundor333.com
+      api_key: "$YOUR_AUTH_TOKEN"
+      on: master
+      
+notifications:
+  slack:
+    secure: imA5k6Php7oZw8BlWina+ey04y5teXsgin567NmCQVUrb9euzC6bIEqc1C0xif/Yj2ZA7bBd4eIHisJhHVKGZW9/SiSpn/2yQltv7vv4NXv4rfwL3NwbhMzNHeAmTqpVn89meGdxCv2ke31Usv4iaB1HKMcTnC7uCULf+FsQTBIyNzE4OdHIOvxWWYRKamR0UExq/jqLvVGLTF5Bb/6fOIDlkzV5TeOYz5+cyE7yLjO72vPlWmQa2mUWzt6meF5211GfbrP3Bvi1TNiMjjpZTmkEDogt6pfNBR7aiY8vyorFe69DE/yHIXwhiHq720fLoPjAvS1zRVcUBNgkB75Cpm2M5UtmJept+1VNgsvaqGO0HCn6nhbMvtrpQ/RhLDlV/cGsNYjeaBrZF/azWYNVxdqfIpKoCP85FNwhKqLEnOY7EndiS5PD0Ewhgb/9eplqVzvRw8TWMgmT4GWGcHBlP3Z7SACUs2XU0CS2fGCpNfadFRqTMO4bjTQo2xL9DJSzeiOGlpzPJrEMdygVfDPqU2xuS6veC6xWgiSQnqHu8EiWUU/GusV7pkpLG3W5C/5I2e5CgKidZWUAbOWqyBEoaniLmOrcVhfw9dG2MScjSc5d8MUTb9kjgDhoJa6ROyJquPMtnCxY5E5naPo7OwURWhYCs0tV+kSY/nu1riBBrls=
