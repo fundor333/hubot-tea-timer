@@ -140,8 +140,6 @@ startTimer = (msg, others) ->
     name: user
     room: room
 
-  msg.send others
-
   timer = timers[userInfo.key]
   if others is null
     msg.send "You must insert a valid time"

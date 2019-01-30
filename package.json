@@ -1,6 +1,6 @@
 {
   "name": "hubot-tea-timer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The last Hubot tea timer you'll ever need.",
   "main": "index.coffee",
   "scripts": {
