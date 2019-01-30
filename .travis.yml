@@ -1,0 +1,6 @@
+deploy:
+  provider: npm
+  email: "fundor333@fundor333.com"
+  api_key: $YOUR_AUTH_TOKEN
+  on:
+    branch: master
